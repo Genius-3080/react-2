@@ -6,7 +6,7 @@
   font-family: "Poppins", sans-serif;
   color: rgb(163, 171, 178);
 }
-body {
+.darker {
   background-color: #0c151d;
   scroll-behavior: smooth;
 }
@@ -26,6 +26,10 @@ body {
 .icon {
   margin-top: 20px;
   cursor: pointer;
+  transition: all 0.3s ease;
+}
+.icon:hover{
+transform: scale(1.05);
 }
 .profile__box {
   display: flex;
@@ -51,7 +55,11 @@ body {
 .icon__pack i {
   font-size: 36px;
   margin: 0px 10px;
+  transition: all 0.3s ease;
 }
+.icon__pack i:hover{
+  transform: scale(1.1);
+ }
 .statics__box {
   width: 634px;
   height: 142px;
@@ -84,6 +92,7 @@ body {
   justify-content: center;
   border-radius: 10px;
   cursor: pointer;
+  transition: all 0.3s ease;
   i {
     width: 26px;
     height: 24px;
@@ -91,6 +100,9 @@ body {
     color: black;
   }
 }
+.btn__1:hover{
+  transform: scale(1.05);
+ }
 .btn__2 {
   width: 290px;
   height: 80px;
@@ -101,7 +113,11 @@ body {
   color: rgb(163, 171, 178);
   border-radius: 10px;
   cursor: pointer;
+  transition: all 0.3s ease;
 }
+.btn__2:hover{
+  transform: scale(1.05);
+ }
 .section__box {
   width: 756px;
   height: 132px;
@@ -122,6 +138,10 @@ body {
   color: rgb(163, 171, 178);
   border-radius: 10px;
   cursor: pointer;
+transition: all 0.3s ease;
+}
+.secbtn__1:hover{
+ transform: scale(1.05);
 }
 .secbtn__2 {
   width: 349.6px;
@@ -133,7 +153,11 @@ body {
   color: rgb(163, 171, 178);
   border-radius: 10px;
   cursor: pointer;
+  transition: all 0.3s ease;
 }
+.secbtn__2:hover{
+  transform: scale(1.05);
+ }
 .image__box {
   width: 757px;
   height: 826px;
@@ -142,10 +166,13 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-
   img {
     cursor: pointer;
+    transition: all 0.3s ease;
   }
+}
+.image__box img:hover{
+    transform: scale(1.05);
 }
 .footer__text {
   color: #a3abb2;
@@ -168,3 +195,15 @@ body {
   border-radius: 6px; /* Optional: Round the corners of the scrollbar thumb */
 }
 
+.sunner{
+  background-color: rgb(233, 235, 236);
+  color: rgb(61, 61, 61);
+}
+.shadower{
+  background-color: white;
+  color: rgb(61, 61, 61);
+}
+.grayer{
+  background: rgb(215, 215, 215);
+  color: rgb(61, 61, 61);
+}
